@@ -34,7 +34,7 @@ var config = {
   sgvLimit: parseInt(readEnv('CARELINK_SGV_LIMIT', 24), 10),
   maxRetryDuration: parseInt(readEnv('CARELINK_MAX_RETRY_DURATION', carelink.defaultMaxRetryDuration), 10),
   verbose: !readEnv('CARELINK_QUIET', true),
-  deviceInterval: 5.1 * 60 * 1000,
+  deviceInterval: 5.5 * 60 * 1000,
 };
 
 if (!config.username) {
